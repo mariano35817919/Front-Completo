@@ -1,0 +1,91 @@
+
+h2 {
+    text-decoration: underline;
+    
+}
+
+.imagen{
+    border: 2px solid rgba(0, 0, 0, 0.993);
+    border-radius: 8px;
+}
+
+
+
+.Carruzel {
+    width:650px;
+    height: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.993);
+    border-radius: 8px;
+} 
+
+
+
+.parrafo{
+    color: black!important;
+}
+
+.segundo {
+    margin-top: 70px;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+.padre{
+    display: flex;
+
+
+    flex-wrap: wrap;
+    
+    padding-top:4%;
+
+    margin-bottom:16%;
+    
+    justify-content: center;
+
+}
+
+.hijo{
+    width: 27%;
+    padding: 1%;
+}
+
+.hijo img{
+    width: 100%;
+    height: 50%;
+}
+.hijo h2{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    section {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .padre {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .imagen {
+        width: 100%;
+        
+    }
+
+    
+    .hijo {
+        width: 100%; 
+        padding: 1%;
+    }
+
+    .hijo img {
+        width: 100%;
+        height: auto;
+    }
+}
